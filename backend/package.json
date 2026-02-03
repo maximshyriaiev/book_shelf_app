@@ -1,0 +1,26 @@
+{
+  "name": "book-shelf-backend",
+  "version": "1.0.0",
+  "description": "Backend for Book Shelf App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "docs": "jsdoc -c jsdoc.conf.json",
+    "lint": "eslint ."
+  },
+  "author": "Maksym Shyriaiev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "jsdoc": "^4.0.5"
+  }
+}

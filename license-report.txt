@@ -1,0 +1,32 @@
+﻿License Report for Book Shelf App
+Generated on February 03, 2026
+
+Проєкт використовує залежності з наступними основними ліцензіями:
+
+Backend (/backend):
+- express: MIT
+- cors: MIT
+- body-parser: MIT
+- swagger-ui-express: MIT
+- yamljs: MIT
+- jsdoc (dev): Apache-2.0
+- eslint (dev): MIT
+Інші залежності: переважно MIT
+
+Frontend (/frontend):
+- react: MIT
+- react-dom: MIT
+- axios: MIT
+- react-cookie-consent: MIT
+- @storybook/* (dev): MIT
+- webpack, babel-loader тощо (dev): MIT
+Інші залежності: переважно MIT
+
+Summary:
+- MIT: переважна більшість пакетів
+- ISC: кілька (наприклад, деякі npm-пакети)
+- Apache-2.0: окремі інструменти (наприклад, jsdoc)
+- BSD-3-Clause: рідко
+
+Всі ліцензії дозволяють вільне використання, модифікацію та розповсюдження в навчальних цілях (згідно з умовами MIT — найпоширеніша).
+Повний список залежностей див. у package.json (backend та frontend).
